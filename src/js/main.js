@@ -327,6 +327,12 @@ function startProcess() {
                     case 'failsafe':
                         TABS.failsafe.initialize(content_ready);
                         break;
+					case 'osd':
+                        TABS.osd.initialize(content_ready);
+                        break;
+					case 'setup_osd':
+                        TABS.setup_osd.initialize(content_ready);
+                        break;
                     case 'power':
                         TABS.power.initialize(content_ready);
                         break;
@@ -609,6 +615,7 @@ function updateTabList(features) {
         $('#tabs ul.mode-connected li.tab_gps').show();
         $('#tabs ul.mode-connected li.tab_led_strip').show();
         $('#tabs ul.mode-connected li.tab_power').show();
+		$('#tabs ul.mode-connected li.tab_osd').show();
     
 }
 

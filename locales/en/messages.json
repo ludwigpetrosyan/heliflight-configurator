@@ -304,9 +304,11 @@
     "tabOptions": {
         "message": "Options"
     },
-
     "tabSetup": {
         "message": "Setup"
+    },
+	"tabSetupOSD": {
+        "message": "OSD Setup"
     },
     "tabConfiguration": {
         "message": "Configuration"
@@ -331,6 +333,9 @@
     },
     "tabTransponder": {
         "message": "Race Transponder"
+    },
+	"tabOsd": {
+        "message": "OSD"
     },
     "tabPower": {
         "message": "Power & Battery"
