@@ -451,6 +451,11 @@ TABS.motors.initialize = function (callback) {
         });
 
         var number_of_valid_outputs = (MOTOR_DATA.indexOf(0) > -1) ? MOTOR_DATA.indexOf(0) : 8;
+		
+		//GUI.log(i18n.getMessage('motorsText'));
+		//GUI.log(number_of_valid_outputs.toString()); 
+		GUI.log("NUMBER_OF_MOTORS: " + number_of_valid_outputs.toString()); 
+		
         var rangeMin;
         var rangeMax;
         var neutral3d;
